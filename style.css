@@ -1,0 +1,68 @@
+*,* :before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.shapka{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(181, 253, 0);
+    padding-top: 40PX;
+}
+.LOGO img{
+   width: 300px; 
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    margin-top: 11px;
+    padding-top: 111px;
+}
+nav li {
+    margin-right: 200px;
+
+}
+
+nav li:last-child{
+ margin-right: 0px;
+
+}
+
+nav a :hover {
+    background-color: rgb(0, 255, 26);
+}
+.ph {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.qwerty{
+    background-color: rgb(228, 0, 0);
+    width: 30%;
+    height: 100px;
+}
+.asdfgh{
+    background-color: aqua;
+    width: 70%;
+    height: 900px;
+}
+.zxcvbn{
+    width: 100%;
+    background-color: chartreuse;
+}
+main {
+    margin-bottom: auto;
+}
